@@ -1,0 +1,10 @@
+.Cart__Container{
+    display: flex;
+};
+
+.Cart__Span{
+    background-color: yellowgreen;
+    border-radius: 50%;
+    color: brown;
+    font-size: 1.3rem;
+};
