@@ -1,5 +1,4 @@
 
-
 export default function Brand(){
     return(
         <h1>
@@ -7,10 +6,6 @@ export default function Brand(){
         </h1>
     )
 }
-
-
-
-
 
 
 
