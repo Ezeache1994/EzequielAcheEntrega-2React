@@ -1,4 +1,4 @@
-const products = [
+export const products = [
     {
         "Category": "Tecnologia",
         "id": 1,

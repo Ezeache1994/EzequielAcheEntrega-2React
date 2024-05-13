@@ -8,7 +8,7 @@ const MisRutas = [
     },
     {
         path: "/Category/Tecnologia",
-        label: " Tecnologia "
+        label: "Tecnologia "
     },
     {
         path: "/Category/Musica",
@@ -26,10 +26,7 @@ const MisRutas = [
         path: "/Category/Cine",
         label: " Cine"
     },
-    {
-        path: "",
-        label: ""
-    },
+
 ];
 
 export default function CategoryList() {
@@ -39,35 +36,17 @@ export default function CategoryList() {
             }}>
                 {MisRutas.map((ruta, index) => (
                     <li key={index}>
-                        <NavLink style={{padding:"0.9rem"}}
-                            className={({ isActive }) => (isActive ? "active-link" : "")}
-                            to={ruta.path}
-                        >
-                            {ruta.label}
-                        </NavLink>
+                        <NavLink
+    style={{ padding: "0.9rem" }}
+    className={({ isActive }) => (isActive ? "active-link" : "")}
+    to={ruta.path}
+    onClick={() => setCategory(ruta.label.trim())} // Aquí pasamos la categoría seleccionada
+>
+    {ruta.label}
+</NavLink>
                     </li>
                 ))}
             </ul>
         </nav>
     )
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
