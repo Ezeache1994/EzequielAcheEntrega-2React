@@ -57,10 +57,10 @@ const products = [
         "Category": "Cocina",
         "id": 7,
         "title": "Restaurant Le Petit Château du Gourmet",
-        "description": "",
+        "description": "Le Petit Château du Gourmet, fundado hace 90 años por el inmigrante francés Benjamin Le Petit, ha pasado de generación en generación dentro de su familia. Este ícono gastronómico fusiona la tradición francesa con la historia argentina, ofreciendo una experiencia culinaria única",
         "image": "https://cdn.midjourney.com/11d802ad-194d-4b79-b0cd-4e3bd5f83c96/0_1.webp",
         "business_volume": "",
-        "reason_To_Donate": ""
+        "reason_To_Donate": "Únete a nosotros para preservar un pedazo de historia culinaria. El Restaurant Le Petit Château du Gourmet es un ícono en Argentina, siendo el primer restaurante francés en establecerse aquí hace más de 90 años. A lo largo de las décadas, ha deleitado a generaciones con su exquisita cocina y su encantador ambiente. Sin embargo, el paso del tiempo ha dejado su huella en su fachada, y ahora necesitamos tu ayuda. Con tu generosidad, podemos restaurar la belleza de este lugar histórico y asegurar que continúe siendo un destino gastronómico emblemático en Argentina. Cada donación cuenta, sin importar el tamaño. Juntos, podemos preservar este legado culinario para las generaciones venideras. ¡Dona hoy y únete a nosotros en esta noble causa!"
     },
     {
         "Category": "Cocina",
@@ -133,7 +133,10 @@ const products = [
         "image": "https://th.bing.com/th/id/OIG4.OH8vEORSnNe9p0rLCMIV?pid=ImgGn",
         "business_volume": "",
         "reason_To_Donate": ""
-    }
+    },
+    {
+        "Category": "*",
+        "image": "https://th.bing.com/th/id/OIG1.RZnXzVnLTaDHLSOuCuui?pid=ImgGn",    }
 ];
 
 export const getProductById = (id) => {

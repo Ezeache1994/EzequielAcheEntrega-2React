@@ -3,6 +3,7 @@ import Layout from './1Components/2Layout/Layout'
 import './App.css'
 import Home from "./1Components/4Home/Home";
 import ItemListContainer from "./3AllContainerItems/4ItemListContainer/ItemListContainer";
+import ItemError from "./3AllContainerItems/4ItemListContainer/itemError";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
           <Route path="Category/Cocina" element = {<ItemListContainer category="Cocina"/>}/>
           <Route path="Category/Construccion" element = {<ItemListContainer category="Construccion"/>}/>
           <Route path="Category/Cine" element = {<ItemListContainer category="Cine"/>}/>
-          <Route path="/*" element = {<h1>Error 404, page NotFOUND</h1>}/>
+          <Route path="/*" element = {<ItemError category="*"/>}/>
         </Routes>
       </Layout>
       </BrowserRouter>
